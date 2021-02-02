@@ -1,8 +1,10 @@
 import { addUser } from './components/addUser.js';
-import { loadUser } from './components/loadUser.js';
+import { loadUsers } from './components/loadUsers.js';
+import { loadTodo } from './components/loadTodo.js';
 
 export const todoApp = () => {
-  loadUser();
+  loadTodo();
+  loadUsers();
   addUser();
 };
 
